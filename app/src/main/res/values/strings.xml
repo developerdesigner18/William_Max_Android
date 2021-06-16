@@ -1,0 +1,243 @@
+<resources>
+    <string name="app_name">AFROBIZFIND</string>
+
+    <string name="app_folder">Afrobizfind</string>
+
+    <string name="emailusernote">First enter email that end with comma(",")
+        and then enter user name that also end with comma(",")</string>
+
+    <string name="set_pass">Set the new password for your account so you can login and access all the features.</string>
+
+    <string name="forgot_pass">To recover your password you need to enter your registered email address we will send the recovery code to your email.</string>
+
+    <string name="default_notification_channel_id_manifest" translatable="false">fcm_Afrobizfind_channel</string>
+
+    <string name="default_notification_channel_id">afrobiz_findId</string>
+    <string name="default_notification_channel_name">afrobiz_findChannel</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="no_connection">Internet not available..</string>
+    <string name="please_wait">Please Wait</string>
+    <string name="something_went_wrong">Something Went Wrong</string>
+
+    <string name="email_feedback">inquiry@afrobizfind.com</string>
+
+    <string name="monthly">The calendar monthly charge is £6 per business profile. The £6 charge for
+        business use is waived until there are 10 000 customers registered on the AFROBIZFIND platform.</string>
+
+    <string name="contact_desc">We’d love to hear from you
+Whether you have a question, about feedback, queries, suggestions,  help or anything else,
+        our team is ready to answer all your questions.
+        \n    You can also report fake company profiles. To report fake company profiles please start message with
+    \'FAKE COMPANY\'. please enter company\'s name, company\'s number and post code with brief reason why
+    you believe the company is fake. To report nuisance account (customer or company) please start message
+    with \'NUISANCE ACCOUNT\' and enter name and mobile number of the customer or enter company\'s name,
+    company number and company post code with brief reason why you believe the account is a nuisance account.
+        \ninquiry@afrobizfind.com</string>
+
+    <string name="suspend_company">
+      The suspend option will prevent your company profile being seen by all customers. The company profile, offers list, products list and customers list will not be delete.
+        To continue with this option please enter your the password you use to login.
+    </string>
+
+    <string name="active_company">
+      The Activate option will make this company profile viewable to the public.
+        To continue with this option please enter your the password you use to login.
+    </string>
+    <string name="delete_company">
+        The delete option will delete all company information including company profile, offers list, products list and customers list.
+        to continue with this option please enter your the password you use to login.
+    </string>
+    <string name="delete_account">The delete option will delete your customer account and delete
+        all of your personal detail. This option will delete all company profiles that you have created including
+        offers list, products list and customers list.
+        to continue with this option please enter your the password you use to login.</string>
+
+    <string name="data_protection_disclaimer">Data protection disclaimer: AFROBIZFIND will NOT pass your
+        details to any third party under any circumstances. You have to choose to become a customer of a company
+        for that company to see your email and mobile number.
+        If you choose to stop being a customer of the company then your email and mobile number will
+        be removed from their records.</string>
+
+    <string name="offer_disclaimer">Please check offer\'s details before you
+        publish as you are unable to edit the offer. if you have made a mistake in creating
+        the offer you will have to delete the offer and recreate a new offer.</string>
+
+    <string name="menu_Login">Login</string>
+    <string name="menu_PersonalDetails">Personal Details</string>
+    <string name="menu_AddCompany">Add A Company</string>
+    <string name="menu_Signup">SIGN UP</string>
+    <string name="menu_CurrentLocation">This is your current location</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="contact_number">+91 8511729207</string>
+
+    <string name="forget_details">Enter the email address associated with your account.</string>
+    <string name="forget_details1">We will email you a link to reset your password.</string>
+
+    <array name="Weekdays">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+    </array>
+    <!--    <string name="menu_send">Send</string>-->
+
+    <array name="compnay_category">
+        <item>BEAUTY/STYLIST</item>
+        <item>ENTERTAINMENT</item>
+        <item>BARBERS</item>
+        <item>FOOD &amp; DRINK</item>
+        <item>SUPERMARKET</item>
+        <item>EDUCATION/TUTOR</item>
+        <item>FASHION</item>
+        <item>PROFESSIONALS SERVICES</item>
+        <item>AUTOMOTIVE</item>
+    </array>
+
+
+    <string name="help1">Not happy with the service or product you have received from a company on AFROBIZFIND?</string>
+
+    <string name="help1_solution">\'If you think a business has broken the law or acted unfairly, you can report them to Trading Standards. \nTrading Standards use the information you give them to investigate unfair trading and illegal business activity, like rogue traders and scams.
+\nTrading Standards can take businesses to court or stop them operating, but they won’t help you fix your problem - for example, they can’t help you get a refund.
+\nYou can get help with your consumer problem from the Citizens Advice consumer service.\'</string>
+
+    <string name="help1_link"><a href="https://www.citizensadvice.org.uk/consumer/get-more-help/if-you-need-more-help-about-a-consumer-issue/">get help with your consumer problem</a></string>
+
+    <string name="help2">Check what you should report to Trading Standards</string>
+
+    <string name="help2_solution">You should report a business to Trading Standards if they sold you something:
+\n•unsafe or dangerous, like an electronic appliance with faulty wiring or food past its use-by date
+\n•fake
+\n•not as described - for example, you bought a package holiday but something advertised wasn’t included
+\n•you didn’t want to buy - for example, they put pressure on you
+\nYou can also tell them about a business if:
+\n•they scammed you - for example, you paid for something online that you didn’t receive and you couldn’t contact the seller
+\n•they tried to stop you using your legal rights - for example, they said you can’t return faulty goods
+\n•they weren’t clear about the price or added on extra costs - for example, they advertised theatre ticket prices without booking fees
+\n•they sold products to people who looked underage without asking for ID - for example, alcohol, knives or fireworks
+\n•they didn’t carry out work properly - for example, kitchen fitters left your home in a dangerous state
+        \nReport a business to Trading Standards
+       \n To report to Trading Standards, you need to contact the Citizens Advice consumer service.
+\nThey will pass your report to Trading Standards and we can also give you advice about your problem. You can:
+\n•use our online form - we’ll get back to you within 5 days
+\n•get help from an adviser
+</string>
+
+    <string name="help2_link"><a href="https://ssl.datamotion.com/form.aspx?co=3438&amp;frm=general&amp;to=flare.fromforms">use our online form</a></string>
+    <string name="help21_link"><a href="https://www.citizensadvice.org.uk/consumer/get-more-help/if-you-need-more-help-about-a-consumer-issue/">get help from an adviser</a></string>
+
+
+    <string name="help3">What happens after you\'ve reported to Trading Standards</string>
+
+    <string name="help3_solution">Trading Standards will use the information you give to decide if they’ll investigate. They’ll only contact you if they need more information.
+\nEven if Trading Standards don\'t contact you, they might use your evidence to take action against the business in the future. For example, if other people make complaints about the same business.
+
+\nGet more help with your consumer problem
+\nIf a business isn’t helping you fix something that went wrong, you could:
+\n•try making a formal complaint
+\n•get help from a dispute resolution scheme
+\n•take them to court
+\nFind out more about how to fix your consumer problem.</string>
+
+    <string name="help3_link"><a href="https://www.citizensadvice.org.uk/consumer/get-more-help/Solve-an-ongoing-consumer-problem/">fix your consumer problem</a></string>
+
+
+    <string name="payment_remaining">Your Company profile is suspended as payment of £6.00 is due. Please click on PayPal link in update company details page</string>
+
+    <array name="currency_array">
+        <item>UK Pound (£)</item>
+        <item>Algerian dinar (DA)</item>
+        <item>Angolan kwanza (Kz)</item>
+        <item>Botswana pula (P)</item>
+        <item>Burundian franc (FBu)</item>
+        <item>Cape Verdean escudo (Cifrão)</item>
+        <item>CFA franc (FCFA)</item>
+        <item>CFA franc (CFA)</item>
+        <item>Comorian franc (CF)</item>
+        <item>Congolese franc (FC)</item>
+        <item>Dalasi (D)</item>
+        <item>Djiboutian franc (Fdj)</item>
+
+        <item>Egyptian pound (e£)</item>
+        <item>Eritrean nakfa (Nkf)</item>
+        <item>Ethiopian birr (Br)</item>
+        <item>Ghanaian cedi (GH₵)</item>
+        <item>Guinean franc (FG)</item>
+        <item>Kenyan shilling (KSh)</item>
+        <item>Lesotho loti (L)</item>
+        <item>Liberian dollar ($)</item>
+        <item>Libyan dinar (LD)</item>
+        <item>Lilangeni (L)</item>
+        <item>Malagasy ariary (Ar)</item>
+
+        <item>Malawian kwacha (K)</item>
+        <item>Mauritian rupee (Rs)</item>
+        <item>Moroccan dirham (DH)</item>
+        <item>Mozambican metical (MT)</item>
+        <item>Namibian dollar (N$)</item>
+        <item>Nigerian naira (₦)</item>
+        <item>Ouguiya (UM)</item>
+        <item>RTGS Dollar ($)</item>
+        <item>Rwandan franc (FRw)</item>
+        <item>São Tomé and Príncipe dobra (Db)</item>
+        <item>Seychellois rupee (SR)</item>
+
+        <item>Sierra Leonean leone (Le)</item>
+        <item>Somali shilling (ShSo)</item>
+        <item>South African rand (R)</item>
+        <item>South Sudanese pound (SS£)</item>
+        <item>Sudanese pound (SDG)</item>
+        <item>Tanzanian shilling (TSh)</item>
+        <item>Tunisian dinar (TND)</item>
+        <item>Ugandan shilling (USh)</item>
+        <item>Zambian kwacha (K)</item>
+
+        <item>US Dollar ($)</item>
+        <item>Euro (€)</item>
+        <item>Japanese Yan (¥)</item>
+        <item>British Pound (£)</item>
+        <item>Saudi Ryal (﷼)</item>
+    </array>
+
+
+    <string name="empty"></string>
+    <string name="none">None</string>
+    <string name="options">Options</string>
+    <string name="sandbox">Sandbox</string>
+    <string name="sandbox_india">Sandbox India</string>
+    <string name="production">Production</string>
+
+    <string name="client_token">Client Token</string>
+    <string name="tokenization_key">Tokenization Key</string>
+    <string name="paypal_intent_authorize">Authorize</string>
+    <string name="nonce_placeholder">Nonce: %s</string>
+
+    <string-array name="environments">
+        <item name="sandbox">@string/sandbox</item>
+        <item name="sandbox-india">@string/sandbox_india</item>
+        <item name="production">@string/production</item>
+    </string-array>
+    <string name="device_data_placeholder">Device Data: %s</string>
+
+    <string name="select_camera">Select a Camera</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="flash_on">Flash [ON]</string>
+    <string name="flash_off">Flash [OFF]</string>
+    <string name="auto_focus_on">Auto Focus [ON]</string>
+    <string name="auto_focus_off">Auto Focus [OFF]</string>
+    <string name="choose_formats">Choose Formats</string>
+    <string name="formats">Formats</string>
+</resources>
+

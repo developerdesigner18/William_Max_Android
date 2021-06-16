@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "375255065305",
+    "firebase_url": "https://afrobizfind-2ec88.firebaseio.com",
+    "project_id": "afrobizfind-2ec88",
+    "storage_bucket": "afrobizfind-2ec88.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375255065305:android:c43f5780d6fe27529dd4c8",
+        "android_client_info": {
+          "package_name": "com.afrobiz.afrobizfind"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375255065305-8hdi1da0m68jmeg5s9gmhafqn09icdv5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.afrobiz.afrobizfind",
+            "certificate_hash": "169dbfd54d84ca7177dc176f21cefda8e78930b0"
+          }
+        },
+        {
+          "client_id": "375255065305-9r4vpcm5j4dis26jnnu2eptgk19f05tn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdTBaLosFNVbPJP4bo9-miQwDHOQpG5xM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375255065305-9r4vpcm5j4dis26jnnu2eptgk19f05tn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/squre_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_toLeftOf="@id/img_cancel"
+            android:text="Order Status"
+            android:textColor="#FFF"
+            android:textSize="@dimen/_14sdp" />
+
+        <ImageView
+            android:id="@+id/img_cancel"
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:src="@drawable/cancel" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_height="wrap_content"
+            android:id="@+id/rcv_order_status">l</androidx.recyclerview.widget.RecyclerView>
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/layout_ordered"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:padding="@dimen/_7sdp"-->
+<!--            android:weightSum="2">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/img_ordered"-->
+<!--                android:layout_width="@dimen/_17sdp"-->
+<!--                android:layout_height="@dimen/_17sdp"-->
+<!--                android:layout_gravity="right|center"-->
+<!--                android:layout_marginLeft="@dimen/_20sdp"-->
+<!--                android:layout_marginRight="@dimen/_20sdp"-->
+<!--                android:src="@drawable/check_radio"></ImageView>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="left|center"-->
+<!--                android:layout_marginLeft="@dimen/_10sdp"-->
+<!--                android:layout_marginRight="@dimen/_20sdp"-->
+<!--                android:text="Ordered"-->
+<!--                android:textAppearance="@style/TextAppearance.AppCompat.Menu"-->
+<!--                android:textColor="@android:color/black"></TextView>-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/layout_ready"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:padding="@dimen/_7sdp"-->
+<!--            android:weightSum="2">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/img_ready"-->
+<!--                android:layout_width="@dimen/_17sdp"-->
+<!--                android:layout_height="@dimen/_17sdp"-->
+<!--                android:layout_gravity="right|center"-->
+<!--                android:layout_marginLeft="@dimen/_20sdp"-->
+<!--                android:layout_marginRight="@dimen/_20sdp"-->
+<!--                android:src="@drawable/check_radio"></ImageView>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="left|center"-->
+<!--                android:layout_marginLeft="@dimen/_10sdp"-->
+<!--                android:layout_marginRight="@dimen/_20sdp"-->
+<!--                android:text="Ready To Collect In"-->
+<!--                android:textAppearance="@style/TextAppearance.AppCompat.Menu"-->
+<!--                android:textColor="@android:color/black"></TextView>-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/layout_collected"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:padding="@dimen/_7sdp"-->
+<!--            android:weightSum="2">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/img_collected"-->
+<!--                android:layout_width="@dimen/_17sdp"-->
+<!--                android:layout_height="@dimen/_17sdp"-->
+<!--                android:layout_gravity="right|center"-->
+<!--                android:layout_marginLeft="@dimen/_20sdp"-->
+<!--                android:layout_marginRight="@dimen/_20sdp"-->
+<!--                android:src="@drawable/check_radio"></ImageView>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="left|center"-->
+<!--                android:layout_marginLeft="@dimen/_10sdp"-->
+<!--                android:layout_marginRight="@dimen/_20sdp"-->
+<!--                android:text="Collected"-->
+<!--                android:textAppearance="@style/TextAppearance.AppCompat.Menu"-->
+<!--                android:textColor="@android:color/black"></TextView>-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/layout_refunded"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="@dimen/_7sdp"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:padding="@dimen/_7sdp"-->
+<!--            android:weightSum="2">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/img_refunded"-->
+<!--                android:layout_width="@dimen/_17sdp"-->
+<!--                android:layout_height="@dimen/_17sdp"-->
+<!--                android:layout_gravity="right|center"-->
+<!--                android:layout_marginLeft="@dimen/_20sdp"-->
+<!--                android:layout_marginRight="@dimen/_20sdp"-->
+<!--                android:src="@drawable/check_radio"></ImageView>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="left|center"-->
+<!--                android:layout_marginLeft="@dimen/_10sdp"-->
+<!--                android:layout_marginRight="@dimen/_20sdp"-->
+<!--                android:text="Refunded"-->
+<!--                android:textAppearance="@style/TextAppearance.AppCompat.Menu"-->
+<!--                android:textColor="@android:color/black"></TextView>-->
+<!--        </LinearLayout>-->
+    </LinearLayout>
+
+
+</LinearLayout>
